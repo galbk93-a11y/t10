@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>תרגול למבחן – כיתה יא 5 יחידות</title>
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);--bg:#faf8f4;--card:#fff;--tx:#222;--mu:#666;--ac:#1d5fa8;--ln:#ddd;--ans:#eef5ec}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#171717;--card:#222;--tx:#eee;--mu:#aaa;--ac:#7db4ee;--ln:#444;--ans:#1f2d1f}}
+html{scroll-padding-top:60px}
+body{margin:0;background:var(--bg);color:var(--tx);font:17px/1.9 system-ui,Arial,sans-serif}
+header,main{max-width:760px;margin:auto;padding:0 14px}
+h1{font-size:22px;margin:16px 0 6px}
+nav{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);padding:8px 0;display:flex;gap:8px;flex-wrap:wrap;border-bottom:1px solid var(--ln);z-index:2}
+nav a,nav button{font:inherit;font-size:15px;padding:4px 12px;border:1px solid var(--ac);border-radius:16px;color:var(--ac);background:none;text-decoration:none;cursor:pointer}
+h2{font-size:20px;margin:28px 0 4px;color:var(--ac)}
+h3{font-size:15px;color:var(--mu);margin:16px 0 6px}
+article{background:var(--card);border:1px solid var(--ln);border-radius:10px;padding:12px 14px;margin:8px 0}
+article b{color:var(--ac)}
+i{font-style:normal;direction:ltr;unicode-bidi:isolate;display:inline-block;font-size:1.08em}
+details{margin-top:8px}
+summary{cursor:pointer;color:var(--ac);font-weight:600}
+.a{background:var(--ans);border-radius:8px;padding:8px 12px;margin-top:6px}
+.a p{margin:4px 0}
+svg{display:block;margin:8px auto;max-width:360px;width:100%;direction:ltr}svg text{fill:var(--tx);font:12px system-ui}.ax{stroke:var(--mu);fill:none}.ds{stroke:var(--mu);stroke-dasharray:4 3;fill:none}.cv{stroke:var(--ac);stroke-width:2;fill:none}.pt{fill:var(--ac)}.ho{fill:var(--card);stroke:var(--ac);stroke-width:1.8}svg .tk{font-size:11px;text-anchor:start}svg .e{text-anchor:end}ol{list-style:hebrew;padding-inline-start:30px;margin:4px 0}
+nav button.on{background:var(--ac);color:var(--bg)}section[hidden]{display:none}
+.ab{display:flex;gap:8px;margin-top:8px}.ab button{flex:1;font:inherit;font-size:15px;padding:5px;border:1px solid var(--ac);border-radius:8px;background:none;color:var(--ac);cursor:pointer}.ab button.on{background:var(--ac);color:var(--bg)}.p{border-radius:8px;padding:6px 12px;margin-top:6px}.p.f{background:var(--ans)}.p.s{border:1px solid var(--ln)}.p p{margin:3px 0}.p .m{text-align:center}.p h4{font-size:15px;margin:8px 0 2px;color:var(--ac)}
+</style></head><body>
+<header><h1>תרגול למבחן – כיתה יא, 5 יחידות</h1>
+<p style="margin:0;color:var(--mu)">פתרו קודם בכתב, ורק אז לחצו "תשובה". התרגילים מדורגים בכל נושא.</p></header>
+<header><nav><button data-t="p" onclick="show('p')">מציאת פרמטר</button><button data-t="k" onclick="show('k')">הרכבות וגרפים</button><button data-t="s" onclick="show('s')">סדרה הנדסית</button></nav></header>
+<main>
+<section id="p"><h2>מציאת פרמטר – מנה ושורש</h2>
+<p style="margin:4px 0;color:var(--mu)">בכל תרגיל נתון אחר. מצאו את הפרמטר בלבד, ללא חקירה מלאה.</p>
+<article><b>1.</b> נתונה $f(x)=\frac{x}{\sqrt{x-a}}$. לפונקציה יש נקודת קיצון ב־$x=6$. מצאו את $a$.
+<div class="p f" hidden><p>$a=3$</p></div><div class="p s" hidden><p>נגזור (נגזרת מנה):</p><p class=m>$f'(x)=\frac{\sqrt{x-a}-x\cdot\frac{1}{2\sqrt{x-a}}}{x-a}$</p><p>נכפול מונה ומכנה ב־$2\sqrt{x-a}$:</p><p class=m>$f'(x)=\frac{2(x-a)-x}{2(x-a)^{3/2}}=\frac{x-2a}{2(x-a)^{3/2}}$</p><p>בנקודת קיצון הנגזרת מתאפסת, לכן $f'(6)=0$:</p><p class=m>$6-2a=0$</p><p class=m>$a=3$</p><p>בדיקה: תחום ההגדרה הוא $x&gt;3$, הנקודה $x=6$ בתחום, והנגזרת $\frac{x-6}{2(x-3)^{3/2}}$ מחליפה סימן ב־$x=6$ – אכן קיצון.</p></div></article>
+<article><b>2.</b> הגרף של $f(x)=\frac{\sqrt{x+a}}{x-1}$ עובר דרך הנקודה $(2,3)$. מצאו את $a$.
+<div class="p f" hidden><p>$a=7$</p></div><div class="p s" hidden><p>הנקודה $(2,3)$ על הגרף, לכן $f(2)=3$:</p><p class=m>$\frac{\sqrt{2+a}}{2-1}=3$</p><p class=m>$\sqrt{2+a}=3$</p><p>נעלה בריבוע:</p><p class=m>$2+a=9$</p><p class=m>$a=7$</p><p>בדיקה: $x=2$ בתחום ההגדרה ($x\ge-7$) ו־$\sqrt9=3$ ✓.</p></div></article>
+<article><b>3.</b> ל־$f(x)=\frac{\sqrt{x+1}}{x^2-a}$, $a&gt;0$, יש אסימפטוטה אנכית ב־$x=2$. מצאו את $a$.
+<div class="p f" hidden><p>$a=4$</p></div><div class="p s" hidden><p>אסימפטוטה אנכית ב־$x=2$ פירושה שהמכנה מתאפס שם והמונה אינו מתאפס.</p><p>המכנה מתאפס ב־$x=2$:</p><p class=m>$2^2-a=0$</p><p class=m>$a=4$</p><p>בדיקה: המונה ב־$x=2$ הוא $\sqrt3\neq0$, לכן זו אסימפטוטה ולא חור.</p><p>שימו לב: המכנה $x^2-4$ מתאפס גם ב־$x=-2$, אך $x=-2$ מחוץ לתחום ההגדרה ($x\ge-1$), ולכן אין שם אסימפטוטה.</p></div></article>
+<article><b>4.</b> ל־$f(x)=\frac{\sqrt{ax^2+1}}{x+1}$, $a&gt;0$, יש אסימפטוטה אופקית $y=2$ כש־$x\to+\infty$. מצאו את $a$.
+<div class="p f" hidden><p>$a=4$</p></div><div class="p s" hidden><p>אסימפטוטה אופקית כש־$x\to+\infty$ היא הגבול של הפונקציה:</p><p class=m>$\lim_{x\to\infty}\frac{\sqrt{ax^2+1}}{x+1}$</p><p>עבור $x&gt;0$ מתקיים $\sqrt{x^2}=x$, לכן נחלק מונה ומכנה ב־$x$:</p><p class=m>$=\lim_{x\to\infty}\frac{\sqrt{a+\frac{1}{x^2}}}{1+\frac1x}=\sqrt a$</p><p>לפי הנתון $y=2$:</p><p class=m>$\sqrt a=2$</p><p class=m>$a=4$</p></div></article>
+<article><b>5.</b> תחום ההגדרה של $f(x)=\frac{1}{\sqrt{x^2-ax}}$, $a&gt;0$, הוא $x&lt;0$ או $x&gt;5$. מצאו את $a$.
+<div class="p f" hidden><p>$a=5$</p></div><div class="p s" hidden><p>הביטוי שבתוך השורש נמצא גם במכנה, לכן הוא חייב להיות חיובי:</p><p class=m>$x^2-ax&gt;0$</p><p>נפרק לגורמים:</p><p class=m>$x(x-a)&gt;0$</p><p>שורשי הביטוי $x=0$ ו־$x=a$, והפרבולה "מחייכת" (כי $a&gt;0$), ולכן הפתרון הוא $x&lt;0$ או $x&gt;a$.</p><p>לפי הנתון תחום ההגדרה הוא $x&lt;0$ או $x&gt;5$, ולכן:</p><p class=m>$a=5$</p></div></article>
+<article><b>6.</b> לפונקציה $f(x)=\frac{x^2-ax}{(x-3)\sqrt{x+1}}$ יש חור ב־$x=3$. מצאו את $a$.
+<div class="p f" hidden><p>$a=3$ (והחור הוא $\left(3,\frac32\right)$)</p></div><div class="p s" hidden><p>חור ב־$x=3$ נוצר כשהגורם $(x-3)$ שבמכנה מצטמצם, כלומר המונה חייב להתאפס ב־$x=3$:</p><p class=m>$3^2-3a=0$</p><p class=m>$a=3$</p><p>בדיקה: נציב $a=3$ ונפרק את המונה:</p><p class=m>$f(x)=\frac{x(x-3)}{(x-3)\sqrt{x+1}}=\frac{x}{\sqrt{x+1}},\quad x\neq3$</p><p>ערך הפונקציה בנקודת החור: $\frac{3}{\sqrt4}=\frac32$, כלומר חור ב־$\left(3,\frac32\right)$.</p></div></article>
+<article><b>7.</b> השיפוע של המשיק לגרף $f(x)=\frac{x+a}{\sqrt x}$ בנקודה שבה $x=4$ הוא $\frac18$. מצאו את $a$.
+<div class="p f" hidden><p>$a=2$</p></div><div class="p s" hidden><p>נכתוב $f(x)=(x+a)x^{-1/2}$ ונגזור (נגזרת מכפלה):</p><p class=m>$f'(x)=x^{-1/2}-\frac12(x+a)x^{-3/2}$</p><p>נוציא גורם משותף $x^{-3/2}$:</p><p class=m>$f'(x)=x^{-3/2}\left(x-\frac{x+a}{2}\right)=\frac{x-a}{2x^{3/2}}$</p><p>השיפוע ב־$x=4$ הוא $\frac18$:</p><p class=m>$\frac{4-a}{2\cdot8}=\frac18$</p><p class=m>$4-a=2$</p><p class=m>$a=2$</p></div></article>
+<article><b>8.</b> ל־$f(x)=\frac{\sqrt{x}}{x+a}$, $a&gt;0$, יש מקסימום וערכו $\frac14$. מצאו את $a$.
+<div class="p f" hidden><p>$a=4$</p></div><div class="p s" hidden><p>קודם נמצא את נקודת המקסימום. נגזור (נגזרת מנה):</p><p class=m>$f'(x)=\frac{\frac{1}{2\sqrt x}(x+a)-\sqrt x}{(x+a)^2}$</p><p>נכפול מונה ומכנה ב־$2\sqrt x$:</p><p class=m>$f'(x)=\frac{(x+a)-2x}{2\sqrt x\,(x+a)^2}=\frac{a-x}{2\sqrt x\,(x+a)^2}$</p><p>הנגזרת מתאפסת ב־$x=a$, חיובית משמאלו ושלילית מימינו, ולכן שם מקסימום.</p><p>ערך המקסימום:</p><p class=m>$f(a)=\frac{\sqrt a}{2a}=\frac{1}{2\sqrt a}$</p><p>לפי הנתון:</p><p class=m>$\frac{1}{2\sqrt a}=\frac14$</p><p class=m>$\sqrt a=2$</p><p class=m>$a=4$</p></div></article>
+<article><b>9.</b> ל־$f(x)=\frac{1}{\sqrt{x^2-4x+a}}$ יש אסימפטוטה אנכית אחת בדיוק. מצאו את $a$.
+<div class="p f" hidden><p>$a=4$</p></div><div class="p s" hidden><p>אסימפטוטה אנכית נוצרת בשורש של הטרינום שבתוך השורש (שם המכנה מתאפס והפונקציה מוגדרת מצד אחד).</p><p>נבחן את הטרינום $x^2-4x+a$ לפי הדיסקרימיננטה:</p><p>אם $\Delta&gt;0$ – שני שורשים ושתי אסימפטוטות.</p><p>אם $\Delta&lt;0$ – אין שורשים והטרינום חיובי תמיד, ולכן אין אסימפטוטה.</p><p>אם $\Delta=0$ – שורש כפול ואסימפטוטה אחת בדיוק.</p><p class=m>$\Delta=16-4a=0$</p><p class=m>$a=4$</p><p>בדיקה: $f(x)=\frac{1}{\sqrt{(x-2)^2}}=\frac{1}{|x-2|}$, ויש אסימפטוטה אחת: $x=2$.</p></div></article>
+<article><b>10.</b> נתונה $f(x)=\frac{\sqrt{ax^2+1}}{x+b}$, $a&gt;0$. האסימפטוטה האנכית של הגרף והאסימפטוטה האופקית שלו שמעל ציר $x$ נחתכות בנקודה $(2,3)$. מצאו את $a$ ואת $b$.
+<div class="p f" hidden><p>$a=9,\ b=-2$</p></div><div class="p s" hidden><p>אסימפטוטה אנכית: המכנה מתאפס והמונה אינו מתאפס (המונה $\sqrt{ax^2+1}$ חיובי תמיד):</p><p class=m>$x+b=0\ \Rightarrow\ x=-b$</p><p>אסימפטוטה אופקית: נחשב גבול כש־$x\to+\infty$ (עבור $x&gt;0$ מתקיים $\sqrt{x^2}=x$), ונחלק מונה ומכנה ב־$x$:</p><p class=m>$\lim_{x\to\infty}\frac{\sqrt{ax^2+1}}{x+b}=\lim_{x\to\infty}\frac{\sqrt{a+\frac{1}{x^2}}}{1+\frac bx}=\sqrt a$</p><p>האסימפטוטה השנייה, כש־$x\to-\infty$, היא $y=-\sqrt a$ (מתחת לציר $x$), ולכן האסימפטוטה שמעל ציר $x$ היא $y=\sqrt a$.</p><p>נקודת החיתוך של האסימפטוטות היא $(-b,\sqrt a)$. לפי הנתון היא $(2,3)$:</p><p class=m>$-b=2\ \Rightarrow\ b=-2$</p><p class=m>$\sqrt a=3\ \Rightarrow\ a=9$</p><p>בדיקה: ב־$f(x)=\frac{\sqrt{9x^2+1}}{x-2}$ המונה ב־$x=2$ הוא $\sqrt{37}\neq0$, ולכן $x=2$ אסימפטוטה אנכית ✓.</p></div></article>
+<article><b>11.</b> ל־$f(x)=\sqrt{x}+\frac{a}{x}$ יש נקודת פיתול ב־$x=4$. מצאו את $a$.
+<div class="p f" hidden><p>$a=1$</p></div><div class="p s" hidden><p>נכתוב את הפונקציה בצורת חזקות:</p><p class=m>$f(x)=x^{1/2}+a\,x^{-1}$</p><p>נגזור פעמיים:</p><p class=m>$f'(x)=\frac12x^{-1/2}-a\,x^{-2}$</p><p class=m>$f''(x)=-\frac14x^{-3/2}+2a\,x^{-3}$</p><p>בנקודת פיתול הנגזרת השנייה מתאפסת, ולכן $f''(4)=0$:</p><p class=m>$-\frac14\cdot\frac{1}{4^{3/2}}+\frac{2a}{4^3}=0$</p><p class=m>$-\frac{1}{32}+\frac{a}{32}=0$</p><p class=m>$a=1$</p><p>בדיקה: עבור $a=1$ מתקבל</p><p class=m>$f''(x)=\frac{8-x^{3/2}}{4x^3}$</p><p>הנגזרת השנייה חיובית ב־$0&lt;x&lt;4$ ושלילית ב־$x&gt;4$, כלומר היא מחליפה סימן ב־$x=4$ – אכן נקודת פיתול.</p></div></article>
+</section>
+<section id="k" hidden><h2>הרכבות וגרפים – קריאה מגרף בלבד</h2>
+<p style="margin:4px 0;color:var(--mu)">בתרגילים אלה נתון רק הגרף (ללא ביטוי אלגברי). בכל תרגיל הגדירו $g(x)=\sqrt{f(x)}$ ו־$h(x)=\frac{1}{f(x)}$ בהתאם לשאלה.</p>
+<article><b>1.</b> בשרטוט גרף הפונקציה $f$. נגדיר $g(x)=\sqrt{f(x)}$ ו־$h(x)=\frac{1}{f(x)}$.
+<svg id=g0 viewBox="0 0 300 200"></svg>
+<ol><li>מצאו את תחום ההגדרה של $g$, את נקודות הקיצון שלה ואת תחומי העלייה והירידה. סרטטו את $g$.</li><li>מצאו את תחום ההגדרה של $h$, אסימפטוטות, קיצון ותחומי עלייה וירידה. סרטטו את $h$.</li></ol>
+<div class="p f" hidden><p>$g$: תחום – כל $x$; מינימום $(1,1)$; יורדת ב־$x&lt;1$, עולה ב־$x&gt;1$.</p><p>$h$: תחום – כל $x$; אסימפטוטה $y=0$; מקסימום $(1,1)$; עולה ב־$x&lt;1$, יורדת ב־$x&gt;1$.</p></div><div class="p s" hidden><ol>
+<li>$f&gt;0$ תמיד ⇒ תחום $g$: כל $x$. מינימום $(1,1)$ ($\sqrt1=1$); יורדת ב־$x&lt;1$, עולה ב־$x&gt;1$. ב־$x=0$: $g=\sqrt2$.</li>
+<li>תחום $h$: כל $x$; אין אסימפטוטה אנכית. אסימפטוטה אופקית $y=0$ ($f\to\infty$), הגרף מעליה. מקסימום $(1,1)$; עולה ב־$x&lt;1$, יורדת ב־$x&gt;1$. ב־$x=0$: $h=\frac12$.</li></ol></div></article>
+
+<article><b>2.</b> בשרטוט גרף הפונקציה $f$ (חותך את ציר $x$ ב־$-1$ וב־$3$).
+<svg id=g1 viewBox="0 0 300 200"></svg>
+<ol><li>מצאו את תחום ההגדרה של $g(x)=\sqrt{f(x)}$, קיצון, ותחומי עלייה וירידה. מה קורה למשיק בקצות התחום?</li><li>מצאו את תחום ההגדרה של $h(x)=\frac{1}{f(x)}$, אסימפטוטות וקיצון.</li><li>מצאו את תחומי העלייה והירידה של $h$ וסרטטו אותה.</li></ol>
+<div class="p f" hidden><p>$g$: תחום $-1\le x\le3$; מקסימום $(1,2)$; עולה ב־$-1&lt;x&lt;1$, יורדת ב־$1&lt;x&lt;3$; משיק אנכי בקצוות.</p><p>$h$: תחום $x\neq-1,3$; אסימפטוטות $x=-1,\ x=3,\ y=0$; מינימום מקומי $\left(1,\frac14\right)$; יורדת ב־$x&lt;-1$ וב־$-1&lt;x&lt;1$, עולה ב־$1&lt;x&lt;3$ וב־$x&gt;3$.</p></div><div class="p s" hidden><ol>
+<li>תחום $g$: $-1\le x\le3$ (שם $f\ge0$). מקסימום $(1,2)$. עולה ב־$-1&lt;x&lt;1$, יורדת ב־$1&lt;x&lt;3$. ב־$x=-1$ וב־$x=3$ ($g=0$) משיק אנכי.</li>
+<li>תחום $h$: $x\neq-1,3$. אסימפטוטות אנכיות $x=-1$, $x=3$; אופקית $y=0$ ($f\to-\infty$, $h\to0^-$). מינימום מקומי $\left(1,\frac14\right)$.</li>
+<li>$h$ הפוכה ב"מגמה" ל־$f$: יורדת ב־$x&lt;-1$ וב־$-1&lt;x&lt;1$; עולה ב־$1&lt;x&lt;3$ וב־$x&gt;3$. ב־$-1&lt;x&lt;3$ היא חיובית; מחוץ לתחום זה שלילית.</li></ol></div></article>
+
+<article><b>3.</b> בשרטוט גרף הפונקציה $f$: נוגעת בציר $x$ ב־$(-1,0)$, חותכת אותו ב־$(2,0)$, ויש לה מינימום $(1,-4)$.
+<svg id=g2 viewBox="0 0 300 200"></svg>
+<ol><li>מצאו את תחום ההגדרה של $g(x)=\sqrt{f(x)}$. מה מיוחד ב־$x=-1$?</li><li>מצאו את תחומי העלייה והירידה של $g$ ואת התנהגותה ב־$x=2$.</li><li>מצאו את תחום ההגדרה של $h(x)=\frac{1}{f(x)}$ ואת כל האסימפטוטות. התייחסו להתנהגות משני צדי כל אסימפטוטה אנכית.</li><li>מצאו קיצון ותחומי עלייה וירידה של $h$, וסרטטו.</li></ol>
+<div class="p f" hidden><p>$g$: תחום $\{-1\}\cup[2,\infty)$ (הנקודה $(-1,0)$ מבודדת); עולה ב־$x&gt;2$; ב־$x=2$ משיק אנכי.</p><p>$h$: תחום $x\neq-1,2$; אסימפטוטות $x=-1,\ x=2,\ y=0$; מקסימום מקומי $\left(1,-\frac14\right)$; יורדת ב־$x&lt;-1$, עולה ב־$-1&lt;x&lt;1$, יורדת ב־$1&lt;x&lt;2$ וב־$x&gt;2$.</p></div><div class="p s" hidden><ol>
+<li>$f\ge0$ רק ב־$x=-1$ (נקודה בודדת) וב־$x\ge2$. תחום $g$: $\{-1\}\cup[2,\infty)$. ב־$x=-1$ הנקודה $(-1,0)$ מבודדת.</li>
+<li>$g$ עולה ב־$x&gt;2$ (כי $f$ עולה שם), $g(2)=0$ עם משיק אנכי.</li>
+<li>תחום $h$: $x\neq-1,2$. אסימפטוטות אנכיות: $x=-1$ ($h\to-\infty$ משני הצדדים, כי $f\le0$ סביבה), $x=2$ ($-\infty$ משמאל, $+\infty$ מימין). אופקית $y=0$ ($0^-$ כש־$x\to-\infty$, $0^+$ כש־$x\to\infty$).</li>
+<li>מקסימום מקומי $\left(1,-\frac14\right)$. $h$ יורדת ב־$x&lt;-1$, עולה ב־$-1&lt;x&lt;1$, יורדת ב־$1&lt;x&lt;2$ וב־$x&gt;2$.</li></ol></div></article>
+
+<article><b>4.</b> בשרטוט גרף הפונקציה $f$ עם אסימפטוטות $x=1$ ו־$y=1$. הגרף חותך את ציר $x$ ב־$(-2,0)$ ואת ציר $y$ ב־$(0,-2)$.
+<svg id=g3 viewBox="0 0 300 200"></svg>
+<ol><li>מצאו את תחום ההגדרה של $g(x)=\sqrt{f(x)}$, אסימפטוטות ותחומי עלייה וירידה. מה קורה ב־$x=-2$?</li><li>מצאו את תחום ההגדרה של $h(x)=\frac{1}{f(x)}$ ואת האסימפטוטות. האם יש לה חור? מצאו אותו.</li><li>מצאו את תחומי העלייה והירידה של $h$ וסרטטו אותה.</li></ol>
+<div class="p f" hidden><p>$g$: תחום $x\le-2$ או $x&gt;1$; אסימפטוטות $x=1,\ y=1$; יורדת בשני התחומים; ב־$(-2,0)$ משיק אנכי.</p><p>$h$: תחום $x\neq-2,1$; אסימפטוטות $x=-2,\ y=1$; חור $(1,0)$; עולה בשני התחומים; חיתוך עם ציר $y$: $\left(0,-\frac12\right)$.</p></div><div class="p s" hidden><ol>
+<li>$f\ge0$ ב־$x\le-2$ וב־$x&gt;1$ ⇒ תחום $g$. אסימפטוטות: $x=1$ ($g\to+\infty$ מימין), $y=1$ (מלמטה ב־$-\infty$, מלמעלה ב־$+\infty$). $f$ יורדת בכל ענף ⇒ $g$ יורדת בשני התחומים. ב־$(-2,0)$ קצה תחום עם משיק אנכי.</li>
+<li>תחום $h$: $x\neq1$ ($f$ לא מוגדרת) ו־$x\neq-2$ ($f=0$). אסימפטוטה אנכית $x=-2$ ($+\infty$ משמאל, $-\infty$ מימין); אופקית $y=1$. ב־$x=1$ $f\to\pm\infty$ ולכן $h\to0$: חור ב־$(1,0)$. אין חיתוך עם ציר $x$ (במקומו חור).</li>
+<li>$h$ עולה ב־$x&lt;-2$ וב־$x&gt;-2$ ($x\neq1$), כי $f$ יורדת בכל ענף. חיתוך עם ציר $y$: $\left(0,-\frac12\right)$.</li></ol></div></article>
+
+<article><b>5.</b> בשרטוט גרף הפונקציה $f$: פרבולה החותכת את ציר $x$ ב־$-1$ וב־$3$, עם קדקוד $(1,-4)$ וחור בנקודה $(2,-3)$.
+<svg id=g4 viewBox="0 0 300 200"></svg>
+<ol><li>מצאו את תחום ההגדרה של $g(x)=\sqrt{f(x)}$. האם החור ב־$f$ משפיע על $g$?</li><li>מצאו את תחומי העלייה והירידה של $g$.</li><li>מצאו את תחום ההגדרה של $h(x)=\frac{1}{f(x)}$, אסימפטוטות, חור וקיצון.</li><li>מצאו את תחומי העלייה והירידה של $h$ וסרטטו.</li></ol>
+<div class="p f" hidden><p>$g$: תחום $x\le-1$ או $x\ge3$ (החור לא משפיע); יורדת ב־$x\le-1$, עולה ב־$x\ge3$.</p><p>$h$: תחום $x\neq-1,2,3$; אסימפטוטות $x=-1,\ x=3,\ y=0$; חור $\left(2,-\frac13\right)$; מקסימום מקומי $\left(1,-\frac14\right)$; עולה ב־$x&lt;-1$ וב־$-1&lt;x&lt;1$, יורדת ב־$1&lt;x&lt;3$ (ללא $x=2$) וב־$x&gt;3$.</p></div><div class="p s" hidden><ol>
+<li>$f\ge0$ ב־$x\le-1$ וב־$x\ge3$ ⇒ תחום $g$. $x=2$ מחוץ לתחום, ולכן החור לא משפיע על $g$.</li>
+<li>$g$ יורדת ב־$x\le-1$ ועולה ב־$x\ge3$ (בהתאם ל־$f$). מינימום $g=0$ בשני הקצוות, עם משיקים אנכיים.</li>
+<li>תחום $h$: $x\neq-1,\ 3,\ 2$. אסימפטוטות אנכיות $x=-1$, $x=3$; אופקית $y=0$ (מלמעלה). חור: $\left(2,-\frac13\right)$. מקסימום מקומי $\left(1,-\frac14\right)$.</li>
+<li>$h$ עולה ב־$x&lt;-1$ וב־$-1&lt;x&lt;1$; יורדת ב־$1&lt;x&lt;3$ (ללא $x=2$) וב־$x&gt;3$.</li></ol></div></article>
+
+<article><b>6.</b> בשרטוט גרף הפונקציה $f$ עם אסימפטוטות $x=-1$ ו־$y=1$, חור ב־$\left(2,\frac23\right)$, ועוברת דרך $(0,0)$ ו־$(-2,2)$.
+<svg id=g5 viewBox="0 0 300 200"></svg>
+<ol><li>מצאו את תחום ההגדרה של $g(x)=\sqrt{f(x)}$, את החור שלה ואת האסימפטוטות.</li><li>מצאו את תחומי העלייה והירידה של $g$.</li><li>מצאו את תחום ההגדרה של $h(x)=\frac{1}{f(x)}$, את האסימפטוטות ואת כל החורים.</li><li>מצאו את תחומי העלייה והירידה של $h$ וסרטטו.</li></ol>
+<div class="p f" hidden><p>$g$: תחום $x&lt;-1$ או $x\ge0$, ללא $x=2$; חור $\left(2,\frac{\sqrt6}{3}\right)$; אסימפטוטות $x=-1,\ y=1$; עולה בשני התחומים.</p><p>$h$: תחום $x\neq0,-1,2$; אסימפטוטות $x=0,\ y=1$; חורים $(-1,0)$ ו־$\left(2,\frac32\right)$; יורדת ב־$x&lt;0$ וב־$x&gt;0$ (ללא החורים).</p></div><div class="p s" hidden><ol>
+<li>$f\ge0$ ב־$x&lt;-1$ וב־$x\ge0$; בלי $x=2$ ⇒ תחום $g$. חור: $\left(2,\sqrt{\frac23}\right)=\left(2,\frac{\sqrt6}{3}\right)$. אסימפטוטות: $x=-1$ ($+\infty$ משמאל), $y=1$ (מלמעלה ב־$-\infty$, מלמטה ב־$+\infty$). ב־$(0,0)$ קצה תחום עם משיק אנכי.</li>
+<li>$f$ עולה בכל ענף ⇒ $g$ עולה ב־$x&lt;-1$ וב־$x\ge0$ (ללא $x=2$).</li>
+<li>תחום $h$: $x\neq0,-1,2$. אסימפטוטה אנכית $x=0$ (שם $f=0$); אופקית $y=1$. חורים: $(-1,0)$ (כי $f\to\infty$ ב־$x=-1$) ו־$\left(2,\frac32\right)$ ($h=\frac{1}{2/3}$). אין חיתוך עם ציר $x$.</li>
+<li>$h$ יורדת בכל ענף (כי $f$ עולה): $x&lt;0$ (ללא $x=-1$) ו־$x&gt;0$ (ללא $x=2$).</li></ol></div></article>
+
+<article><b>7.</b> בשרטוט גרף הפונקציה $f$, המוגדרת רק בתחום $1&lt;x\le5$. ל־$f$ אסימפטוטה אנכית $x=1$, מינימום $(3,4)$ וקצה $(5,5)$.<svg id=g6 viewBox="0 0 300 200"></svg>
+<ol><li>מצאו את תחום ההגדרה של $g(x)=\sqrt{f(x)}$, אסימפטוטות, קיצון ותחומי עלייה וירידה.</li><li>מצאו את תחום ההגדרה של $h(x)=\frac{1}{f(x)}$. האם יש ל־$h$ אסימפטוטה אנכית? נמקו.</li><li>מצאו קיצון ותחומי עלייה וירידה של $h$, וסרטטו.</li></ol>
+<div class="p f" hidden><p>$g$: תחום $1&lt;x\le5$; אסימפטוטה $x=1$; מינימום $(3,2)$; יורדת ב־$1&lt;x&lt;3$, עולה ב־$3&lt;x\le5$.</p><p>$h$: תחום $1&lt;x\le5$; אין אסימפטוטה אנכית (קצה פתוח $(1,0)$); מקסימום $\left(3,\frac14\right)$; עולה ב־$1&lt;x&lt;3$, יורדת ב־$3&lt;x\le5$.</p></div><div class="p s" hidden><ol><li>תחום $g$: $1&lt;x\le5$ ($f&gt;0$). אסימפטוטה אנכית $x=1$ ($g\to+\infty$). מינימום $(3,2)$; יורדת ב־$1&lt;x&lt;3$, עולה ב־$3&lt;x\le5$. קצה $(5,\sqrt5)$.</li>
+<li>תחום $h$: $1&lt;x\le5$. אין אסימפטוטה אנכית: כש־$x\to1^+$ $f\to\infty$, ולכן $h\to0$ (קצה פתוח $(1,0)$).</li>
+<li>מקסימום $\left(3,\frac14\right)$. $h$ עולה ב־$1&lt;x&lt;3$, יורדת ב־$3&lt;x\le5$; קצה $\left(5,\frac15\right)$.</li></ol></div></article>
+
+<article><b>8.</b> בשרטוט גרף הפונקציה $f$ עם אסימפטוטה אופקית $y=0$ (ציר $x$). לגרף מקסימום $(1,2)$, מינימום $(-1,-2)$, והוא עובר דרך הראשית.
+<svg id=g7 viewBox="0 0 300 200"></svg>
+<ol><li>מצאו את תחום ההגדרה של $g(x)=\sqrt{f(x)}$, אסימפטוטות, קיצון ותחומי עלייה וירידה.</li><li>מצאו את תחום ההגדרה של $h(x)=\frac{1}{f(x)}$. האם ל־$h$ יש אסימפטוטה אופקית? נמקו, ומצאו אסימפטוטה אנכית.</li><li>מצאו קיצון ותחומי עלייה וירידה של $h$, וסרטטו.</li></ol>
+<div class="p f" hidden><p>$g$: תחום $x\ge0$; אסימפטוטה $y=0$; מקסימום $(1,\sqrt2)$; עולה ב־$0\le x&lt;1$, יורדת ב־$x&gt;1$.</p><p>$h$: תחום $x\neq0$; אסימפטוטה אנכית $x=0$, אין אופקית; מינימום מקומי $\left(1,\frac12\right)$, מקסימום מקומי $\left(-1,-\frac12\right)$; עולה ב־$x&lt;-1$ וב־$x&gt;1$, יורדת ב־$-1&lt;x&lt;0$ וב־$0&lt;x&lt;1$.</p></div><div class="p s" hidden><ol>
+<li>$f\ge0$ ב־$x\ge0$ ⇒ תחום $g$. אסימפטוטה אופקית $y=0$ כש־$x\to\infty$. מקסימום $(1,\sqrt2)$; עולה ב־$0\le x&lt;1$, יורדת ב־$x&gt;1$. ב־$(0,0)$ קצה תחום עם משיק אנכי.</li>
+<li>תחום $h$: $x\neq0$. אסימפטוטה אנכית $x=0$. אין אופקית: כש־$f\to0$ ($x\to\pm\infty$) $h\to\pm\infty$.</li>
+<li>מינימום מקומי $\left(1,\frac12\right)$, מקסימום מקומי $\left(-1,-\frac12\right)$. $h$ עולה ב־$x&lt;-1$ וב־$x&gt;1$; יורדת ב־$-1&lt;x&lt;0$ וב־$0&lt;x&lt;1$.</li></ol></div></article>
+
+<article><b>9.</b> בשרטוט גרף הנגזרת $f'$ של פונקציה $f$ המוגדרת לכל $x$ ($f'$ נוגעת בציר $x$ ב־$(3,0)$ ובעלת מקסימום מקומי $(1,4)$).
+<svg id=g8 viewBox="0 0 300 200"></svg>
+<ol><li>מצאו את תחומי העלייה והירידה של $f$.</li><li>מצאו את נקודות הקיצון של $f$ וסוגן.</li><li>מצאו את נקודות הפיתול של $f$ ואת תחומי הקעירות.</li><li>הסבירו מדוע ב־$x=3$ אין קיצון ל־$f$ אך יש פיתול.</li><li>נתון $f(0)=1$. סרטטו סקיצה של $f$.</li></ol>
+<div class="p f" hidden><p>$f$ יורדת ב־$x&lt;0$ ועולה ב־$x&gt;0$; מינימום ב־$(0,1)$; פיתול ב־$x=1$ וב־$x=3$; קעורה כלפי מעלה ב־$x&lt;1$ וב־$x&gt;3$, כלפי מטה ב־$1&lt;x&lt;3$.</p></div><div class="p s" hidden><ol>
+<li>$f'&lt;0$ ב־$x&lt;0$ ⇒ יורדת; $f'\ge0$ ב־$x&gt;0$ ⇒ עולה.</li>
+<li>ב־$x=0$ $f'$ עוברת מ־$-$ ל־$+$ ⇒ מינימום ב־$x=0$ (עם הנתון בסעיף ה: $(0,1)$).</li>
+<li>$f''$ היא שיפוע $f'$. ב־$x=1$ ל־$f'$ מקסימום ו־$f''$ מחליפה סימן ($+$ ל־$-$); ב־$x=3$ ל־$f'$ מינימום ו־$f''$ מחליפה סימן ($-$ ל־$+$). פיתול ב־$x=1$ ו־$x=3$. קעורה כלפי מעלה ב־$x&lt;1$ וב־$x&gt;3$; כלפי מטה ב־$1&lt;x&lt;3$.</li>
+<li>$f'(3)=0$ אך $f'$ לא מחליפה סימן (חיובית משני הצדדים), לכן אין קיצון. הקעירות מתחלפת ⇒ פיתול עם משיק אופקי.</li>
+<li>הגרף יורד עד $(0,1)$, עולה בקעירות מעלה עד $x=1$, ממשיך לעלות בקעירות מטה עד $x=3$ (שם משיק אופקי ופיתול), ואז ממשיך לעלות בקעירות מעלה.</li></ol></div></article>
+
+<article><b>10.</b> בשרטוט גרף הנגזרת השנייה $f''$ של פונקציה $f$ (פרבולה החותכת את ציר $x$ ב־$-1$ וב־$2$). ידוע כי $f'(1)=0$.
+<svg id=g9 viewBox="0 0 300 200"></svg>
+<ol><li>מצאו את תחומי הקעירות של $f$ ואת נקודות הפיתול שלה.</li><li>באילו תחומים $f'$ עולה? מצאו את נקודות הקיצון המקומי של $f'$.</li><li>קבעו אם בנקודה $x=1$ יש ל־$f$ מקסימום מקומי או מינימום מקומי, ונמקו.</li></ol>
+<div class="p f" hidden><p>קעורה כלפי מעלה ב־$x&lt;-1$ וב־$x&gt;2$, כלפי מטה ב־$-1&lt;x&lt;2$; פיתול ב־$x=-1$ וב־$x=2$; $f'$ עולה ב־$x&lt;-1$ וב־$x&gt;2$, עם מקסימום מקומי ב־$x=-1$ ומינימום מקומי ב־$x=2$; ב־$x=1$ ל־$f$ מקסימום מקומי.</p></div><div class="p s" hidden><ol>
+<li>$f''&gt;0$ ב־$x&lt;-1$ וב־$x&gt;2$ ⇒ קעורה כלפי מעלה; $f''&lt;0$ ב־$-1&lt;x&lt;2$ ⇒ קעורה כלפי מטה. פיתול ב־$x=-1$ וב־$x=2$.</li>
+<li>$f'$ עולה כש־$f''&gt;0$: $x&lt;-1$ ו־$x&gt;2$. ב־$x=-1$ מקסימום מקומי של $f'$ ($f''$ מ־$+$ ל־$-$), ב־$x=2$ מינימום מקומי ($f''$ מ־$-$ ל־$+$).</li>
+<li>$f'(1)=0$ ו־$f''(1)&lt;0$ (הגרף מתחת לציר) ⇒ מקסימום מקומי של $f$.</li></ol></div></article>
+
+</section>
+<section id="s" hidden><h2>סדרה הנדסית – סכום סופי ואיבר כללי</h2>
+<h3>איבר כללי</h3>
+<article><b>1.</b> בסדרה הנדסית $a_2=6,\ a_5=48$. א. מצאו $q$, $a_1$ ואת האיבר הכללי. ב. האם 768 הוא איבר בסדרה? באיזה מקום? ג. האם 1000 הוא איבר בסדרה?
+<div class="p f" hidden><p>$q=2,\ a_1=3,\ a_n=3\cdot2^{n-1}$; 768 הוא האיבר ה־9; 1000 אינו איבר בסדרה.</p></div><div class="p s" hidden><h4>א.</h4><p>נבטא את האיברים לפי $a_n=a_1q^{n-1}$:</p><p class=m>$a_2=a_1q=6$</p><p class=m>$a_5=a_1q^4=48$</p><p>נחלק את המשוואה השנייה בראשונה:</p><p class=m>$q^3=\frac{48}{6}=8$</p><p class=m>$q=2$</p><p>נציב במשוואה הראשונה:</p><p class=m>$a_1\cdot2=6\ \Rightarrow\ a_1=3$</p><p class=m>$a_n=3\cdot2^{n-1}$</p><h4>ב.</h4><p>נבדוק מתי $a_n=768$:</p><p class=m>$3\cdot2^{n-1}=768$</p><p class=m>$2^{n-1}=256=2^8$</p><p class=m>$n-1=8\ \Rightarrow\ n=9$</p><p>768 הוא האיבר התשיעי.</p><h4>ג.</h4><p class=m>$3\cdot2^{n-1}=1000\ \Rightarrow\ 2^{n-1}=\frac{1000}{3}$</p><p>אין $n$ טבעי שמקיים זאת (זו אינה חזקה שלמה של 2), ולכן 1000 אינו איבר בסדרה.</p></div></article>
+<article><b>2.</b> בסדרה הנדסית $a_3=18,\ a_5=162$ והמנה שלילית. מצאו את $q$, $a_1$, האיבר הכללי ואת $a_8$.
+<div class="p f" hidden><p>$q=-3,\ a_1=2,\ a_n=2(-3)^{n-1},\ a_8=-4374$</p></div><div class="p s" hidden><p class=m>$a_3=a_1q^2=18$</p><p class=m>$a_5=a_1q^4=162$</p><p>נחלק את השנייה בראשונה:</p><p class=m>$q^2=9\ \Rightarrow\ q=\pm3$</p><p>לפי הנתון המנה שלילית, לכן $q=-3$.</p><p class=m>$a_1\cdot9=18\ \Rightarrow\ a_1=2$</p><p class=m>$a_n=2\cdot(-3)^{n-1}$</p><p class=m>$a_8=2\cdot(-3)^7=-4374$</p></div></article>
+<article><b>3.</b> בסדרה הנדסית $a_3=8,\ a_6=1$. מצאו את $q$, $a_1$, את האיבר הכללי, ובאיזה מקום נמצא האיבר $\frac{1}{16}$.
+<div class="p f" hidden><p>$q=\frac12,\ a_1=32,\ a_n=2^{6-n}$; האיבר $\frac1{16}$ הוא האיבר ה־10.</p></div><div class="p s" hidden><p class=m>$a_3=a_1q^2=8$</p><p class=m>$a_6=a_1q^5=1$</p><p>נחלק את השנייה בראשונה:</p><p class=m>$q^3=\frac18\ \Rightarrow\ q=\frac12$</p><p class=m>$a_1\cdot\frac14=8\ \Rightarrow\ a_1=32$</p><p class=m>$a_n=32\cdot\left(\frac12\right)^{n-1}=2^5\cdot2^{-(n-1)}=2^{6-n}$</p><p>נחפש מקום שבו האיבר הוא $\frac1{16}=2^{-4}$:</p><p class=m>$2^{6-n}=2^{-4}$</p><p class=m>$6-n=-4\ \Rightarrow\ n=10$</p></div></article>
+<article><b>4.</b> נתון האיבר הכללי $a_n=5\cdot3^{n-2}$. מצאו את $a_1$ ואת $q$, ובאיזה מקום נמצא האיבר 405.
+<div class="p f" hidden><p>$a_1=\frac53,\ q=3$; האיבר 405 הוא האיבר ה־6.</p></div><div class="p s" hidden><p>נציב $n=1$:</p><p class=m>$a_1=5\cdot3^{-1}=\frac53$</p><p>המנה היא היחס בין איבר לקודמו:</p><p class=m>$q=\frac{a_{n+1}}{a_n}=\frac{5\cdot3^{n-1}}{5\cdot3^{n-2}}=3$</p><p>נחפש מקום שבו $a_n=405$:</p><p class=m>$5\cdot3^{n-2}=405$</p><p class=m>$3^{n-2}=81=3^4$</p><p class=m>$n-2=4\ \Rightarrow\ n=6$</p></div></article>
+<h3>הוכחה שסדרה היא הנדסית</h3>
+<article><b>5.</b> הוכיחו שהסדרה $a_n=4\cdot3^{n+1}$ הנדסית, ומצאו את $a_1$ ואת $q$.
+<div class="p f" hidden><p>הסדרה הנדסית, $q=3$, $a_1=36$.</p></div><div class="p s" hidden><p>כדי להוכיח שסדרה הנדסית, צריך להראות שהיחס בין איבר לקודמו קבוע (אינו תלוי ב־$n$):</p><p class=m>$\frac{a_{n+1}}{a_n}=\frac{4\cdot3^{n+2}}{4\cdot3^{n+1}}=3$</p><p>היחס קבוע, ולכן הסדרה הנדסית עם $q=3$.</p><p class=m>$a_1=4\cdot3^2=36$</p></div></article>
+<article><b>6.</b> הוכיחו שהסדרה $a_n=5\cdot2^{3n-1}$ הנדסית, ומצאו את $a_1$ ואת $q$.
+<div class="p f" hidden><p>הסדרה הנדסית, $q=8$, $a_1=20$.</p></div><div class="p s" hidden><p>נחשב את היחס בין איבר לקודמו. באיבר ה־$(n+1)$ מציבים $n+1$ בכל מקום שבו יש $n$:</p><p class=m>$\frac{a_{n+1}}{a_n}=\frac{5\cdot2^{3(n+1)-1}}{5\cdot2^{3n-1}}=\frac{2^{3n+2}}{2^{3n-1}}$</p><p>בחילוק חזקות בעלות אותו בסיס מחסרים מעריכים:</p><p class=m>$=2^{(3n+2)-(3n-1)}=2^3=8$</p><p>היחס קבוע, ולכן הסדרה הנדסית עם $q=8$.</p><p class=m>$a_1=5\cdot2^{3-1}=20$</p></div></article>
+<article><b>7.</b> הוכיחו שהסדרה $a_n=\frac{3^{2n}}{5^{n+1}}$ הנדסית, ומצאו את $a_1$ ואת $q$.
+<div class="p f" hidden><p>הסדרה הנדסית, $q=\frac95$, $a_1=\frac9{25}$.</p></div><div class="p s" hidden><p class=m>$\frac{a_{n+1}}{a_n}=\frac{3^{2(n+1)}}{5^{(n+1)+1}}\cdot\frac{5^{n+1}}{3^{2n}}$</p><p>נפריד לפי בסיסים:</p><p class=m>$=\frac{3^{2n+2}}{3^{2n}}\cdot\frac{5^{n+1}}{5^{n+2}}=3^2\cdot\frac15=\frac95$</p><p>היחס קבוע, ולכן הסדרה הנדסית עם $q=\frac95$.</p><p class=m>$a_1=\frac{3^2}{5^2}=\frac{9}{25}$</p></div></article>
+<article><b>8.</b> הראו שהסדרה $a_n=2\cdot3^{2n}-1$ אינה הנדסית.
+<div class="p f" hidden><p>הסדרה אינה הנדסית.</p></div><div class="p s" hidden><p>כדי להראות שסדרה אינה הנדסית מספיק למצוא שני יחסים עוקבים שונים. נחשב את שלושת האיברים הראשונים:</p><p class=m>$a_1=2\cdot3^2-1=17$</p><p class=m>$a_2=2\cdot3^4-1=161$</p><p class=m>$a_3=2\cdot3^6-1=1457$</p><p>נבדוק את היחסים:</p><p class=m>$\frac{a_2}{a_1}=\frac{161}{17}\approx9.47$</p><p class=m>$\frac{a_3}{a_2}=\frac{1457}{161}\approx9.05$</p><p>היחסים שונים, ולכן הסדרה אינה הנדסית.</p><p>הסיבה: ה־$-1$ מפריע, והיחס $\frac{2\cdot9^{n+1}-1}{2\cdot9^n-1}$ תלוי ב־$n$.</p></div></article>
+<h3>מציאת האיבר הכללי כשנתון סכום</h3>
+<article><b>9.</b> סכום $n$ האיברים הראשונים בסדרה הוא $S_n=2^n-1$. מצאו את $a_n$ והוכיחו שהסדרה הנדסית.
+<div class="p f" hidden><p>$a_n=2^{n-1}$, הסדרה הנדסית עם $q=2$.</p></div><div class="p s" hidden><p>נשתמש בקשרים $a_1=S_1$ ו־$a_n=S_n-S_{n-1}$ (עבור $n\ge2$).</p><p class=m>$a_1=S_1=2-1=1$</p><p class=m>$a_n=S_n-S_{n-1}=(2^n-1)-(2^{n-1}-1)$</p><p class=m>$=2^n-2^{n-1}=2^{n-1}(2-1)=2^{n-1}$</p><p>בדיקה ל־$n=1$: $2^0=1=a_1$ ✓, ולכן הנוסחה נכונה לכל $n$.</p><p class=m>$\frac{a_{n+1}}{a_n}=\frac{2^n}{2^{n-1}}=2$</p><p>היחס קבוע, ולכן הסדרה הנדסית עם $q=2$.</p></div></article>
+<article><b>10.</b> סכום $n$ האיברים הראשונים בסדרה הוא $S_n=3^{n+1}-3$. מצאו את $a_n$, את $a_1$ ואת $q$.
+<div class="p f" hidden><p>$a_n=2\cdot3^n,\ a_1=6,\ q=3$</p></div><div class="p s" hidden><p class=m>$a_1=S_1=3^2-3=6$</p><p class=m>$a_n=S_n-S_{n-1}=(3^{n+1}-3)-(3^n-3)$</p><p class=m>$=3^{n+1}-3^n=3^n(3-1)=2\cdot3^n$</p><p>בדיקה ל־$n=1$: $2\cdot3=6=a_1$ ✓, ולכן הנוסחה נכונה לכל $n$.</p><p class=m>$q=\frac{a_{n+1}}{a_n}=3$</p></div></article>
+<article><b>11.</b> סכום $n$ האיברים הראשונים בסדרה הוא $S_n=3^n+1$. מצאו את $a_n$. האם הסדרה הנדסית?
+<div class="p f" hidden><p>$a_1=4$ ו־$a_n=2\cdot3^{n-1}$ ל־$n\ge2$; הסדרה אינה הנדסית.</p></div><div class="p s" hidden><p class=m>$a_1=S_1=3+1=4$</p><p>לכל $n\ge2$:</p><p class=m>$a_n=S_n-S_{n-1}=(3^n+1)-(3^{n-1}+1)=3^{n-1}(3-1)=2\cdot3^{n-1}$</p><p>נציב $n=1$ בנוסחה: מקבלים $2\cdot3^0=2$, אבל $a_1=4$. הנוסחה אינה מתאימה לאיבר הראשון.</p><p>נחשב את האיברים הראשונים:</p><p class=m>$a_1=4,\quad a_2=6,\quad a_3=18$</p><p class=m>$\frac{a_2}{a_1}=\frac32\neq3=\frac{a_3}{a_2}$</p><p>הסדרה אינה הנדסית (רק מהאיבר השני ואילך היא הנדסית עם $q=3$).</p></div></article>
+<article><b>12.</b> סכום $n$ האיברים הראשונים בסדרה הוא $S_n=2^{3n+1}-2$. מצאו את $a_n$ והוכיחו שהסדרה הנדסית.
+<div class="p f" hidden><p>$a_n=7\cdot2^{3n-2}$, הסדרה הנדסית עם $q=8$.</p></div><div class="p s" hidden><p class=m>$a_1=S_1=2^4-2=14$</p><p class=m>$a_n=S_n-S_{n-1}=(2^{3n+1}-2)-(2^{3(n-1)+1}-2)=2^{3n+1}-2^{3n-2}$</p><p>נוציא גורם משותף $2^{3n-2}$:</p><p class=m>$=2^{3n-2}(2^3-1)=7\cdot2^{3n-2}$</p><p>בדיקה ל־$n=1$: $7\cdot2=14=a_1$ ✓, ולכן הנוסחה נכונה לכל $n$.</p><p class=m>$\frac{a_{n+1}}{a_n}=\frac{7\cdot2^{3n+1}}{7\cdot2^{3n-2}}=2^3=8$</p><p>היחס קבוע, ולכן הסדרה הנדסית עם $q=8$.</p></div></article>
+<h3>שלושה איברים עם נעלמים</h3>
+<article><b>13.</b> המספרים $x+1,\ x+4,\ x+10$ הם שלושה איברים עוקבים בסדרה הנדסית. מצאו את $x$, את המנה ואת האיברים.
+<div class="p f" hidden><p>$x=2$; האיברים $3,6,12$; $q=2$.</p></div><div class="p s" hidden><p>בסדרה הנדסית האיבר האמצעי בריבוע שווה למכפלת שני השכנים שלו:</p><p class=m>$(x+4)^2=(x+1)(x+10)$</p><p class=m>$x^2+8x+16=x^2+11x+10$</p><p class=m>$6=3x$</p><p class=m>$x=2$</p><p>האיברים: $3,\ 6,\ 12$, והמנה $q=\frac63=2$ (בדיקה: $\frac{12}{6}=2$ ✓).</p></div></article>
+<article><b>14.</b> המספרים $x,\ 6,\ x+5$ הם שלושה איברים עוקבים בסדרה הנדסית. מצאו את $x$ ואת האיברים (כל האפשרויות).
+<div class="p f" hidden><p>$x=4$ (האיברים $4,6,9$, $q=\frac32$) או $x=-9$ (האיברים $-9,6,-4$, $q=-\frac23$).</p></div><div class="p s" hidden><p>האיבר האמצעי בריבוע שווה למכפלת השכנים:</p><p class=m>$6^2=x(x+5)$</p><p class=m>$x^2+5x-36=0$</p><p>נפרק לגורמים:</p><p class=m>$(x+9)(x-4)=0$</p><p>קיבלנו שני פתרונות, $x=4$ או $x=-9$. נבדוק כל אחד:</p><p>עבור $x=4$ האיברים הם $4,\ 6,\ 9$ והמנה $q=\frac64=\frac32$ (בדיקה: $\frac96=\frac32$ ✓).</p><p>עבור $x=-9$ האיברים הם $-9,\ 6,\ -4$ והמנה $q=\frac{6}{-9}=-\frac23$ (בדיקה: $\frac{-4}{6}=-\frac23$ ✓).</p></div></article>
+
+
+<h3>סכום סופי</h3>
+<article><b>15.</b> בסדרה הנדסית $a_3=12,\ a_6=96$. מצאו $q$, $a_1$, את האיבר הכללי ואת $a_7$.
+<div class="p f" hidden><p>$q=2,\ a_1=3,\ a_n=3\cdot2^{n-1},\ a_7=192$</p></div><div class="p s" hidden><p class=m>$a_3=a_1q^2=12$</p><p class=m>$a_6=a_1q^5=96$</p><p>נחלק את השנייה בראשונה:</p><p class=m>$q^3=8\ \Rightarrow\ q=2$</p><p class=m>$a_1\cdot4=12\ \Rightarrow\ a_1=3$</p><p class=m>$a_n=3\cdot2^{n-1}$</p><p class=m>$a_7=3\cdot2^6=192$</p></div></article>
+<article><b>16.</b> בסדרה $a_1=3,\ q=2$: א. חשבו את $S_8$. ב. כמה איברים צריך לסכום כדי לקבל 381?
+<div class="p f" hidden><p>$S_8=765$; $n=7$.</p></div><div class="p s" hidden><p>נוסחת הסכום של סדרה הנדסית: $S_n=\frac{a_1(q^n-1)}{q-1}$.</p><h4>א.</h4><p class=m>$S_8=\frac{3(2^8-1)}{2-1}=3\cdot255=765$</p><h4>ב.</h4><p class=m>$\frac{3(2^n-1)}{2-1}=381$</p><p class=m>$2^n-1=127$</p><p class=m>$2^n=128=2^7$</p><p class=m>$n=7$</p></div></article>
+<article><b>17.</b> בסדרה הנדסית עולה $a_2=6,\ a_5=162$. מצאו את $a_1, q$ ואת סכום 6 האיברים הראשונים.
+<div class="p f" hidden><p>$a_1=2,\ q=3,\ S_6=728$</p></div><div class="p s" hidden><p class=m>$a_2=a_1q=6$</p><p class=m>$a_5=a_1q^4=162$</p><p>נחלק את השנייה בראשונה:</p><p class=m>$q^3=27\ \Rightarrow\ q=3$</p><p class=m>$a_1=\frac63=2$</p><p class=m>$S_6=\frac{2(3^6-1)}{3-1}=3^6-1=728$</p></div></article>
+<article><b>18.</b> (מקומות אחרונים) בסדרה בת 10 איברים $a_1=1,\ q=2$. מצאו את סכום 4 האיברים האחרונים.
+<div class="p f" hidden><p>$960$</p></div><div class="p s" hidden><p>ארבעת האיברים האחרונים $a_7,a_8,a_9,a_{10}$ מהווים סדרה הנדסית בעלת אותה מנה.</p><p>האיבר הראשון שלהם:</p><p class=m>$a_7=1\cdot2^6=64$</p><p>ארבעה איברים עם $q=2$:</p><p class=m>$S=\frac{64(2^4-1)}{2-1}=64\cdot15=960$</p><p>בדיקה: $64+128+256+512=960$ ✓.</p></div></article>
+<article><b>19.</b> (זוגיים ואי־זוגיים) בסדרה בת 12 איברים $a_1=2,\ q=2$. מצאו את סכום האיברים במקומות האי־זוגיים, במקומות הזוגיים, ואת הסכום הכולל.
+<div class="p f" hidden><p>אי־זוגיים: $2730$; זוגיים: $5460$; סכום כולל: $8190$.</p></div><div class="p s" hidden><p>נפרק לשתי סדרות.</p><p>מקומות אי־זוגיים: $a_1,a_3,\dots,a_{11}$ – 6 איברים. האיבר הראשון $a_1=2$ והמנה $q^2=4$:</p><p class=m>$S_{\text{odd}}=\frac{2(4^6-1)}{4-1}=\frac{2\cdot4095}{3}=2730$</p><p>מקומות זוגיים: $a_2,a_4,\dots,a_{12}$ – 6 איברים. האיבר הראשון $a_2=4$ והמנה גם כן $4$:</p><p class=m>$S_{\text{even}}=\frac{4(4^6-1)}{4-1}=\frac{4\cdot4095}{3}=5460$</p><p>הסכום הכולל:</p><p class=m>$2730+5460=8190$</p><p>בדיקה: $\frac{2(2^{12}-1)}{2-1}=8190$ ✓.</p></div></article>
+<article><b>20.</b> בסדרה הנדסית בת 8 איברים סכום האיברים במקומות האי־זוגיים הוא 85 ובזוגיים 170. מצאו את $q$, $a_1$ ואת סכום שני האיברים האמצעיים.
+<div class="p f" hidden><p>$q=2,\ a_1=1$; סכום שני האיברים האמצעיים: $24$.</p></div><div class="p s" hidden><p>כל איבר במקום זוגי הוא איבר במקום אי־זוגי כפול $q$ ($a_{2k}=q\cdot a_{2k-1}$), ולכן:</p><p class=m>$S_{\text{even}}=q\cdot S_{\text{odd}}$</p><p class=m>$170=q\cdot85\ \Rightarrow\ q=2$</p><p>מקומות אי־זוגיים: 4 איברים עם מנה $q^2=4$:</p><p class=m>$a_1\cdot\frac{4^4-1}{4-1}=85$</p><p class=m>$85a_1=85\ \Rightarrow\ a_1=1$</p><p>בסדרה בת 8 איברים האיברים האמצעיים הם $a_4$ ו־$a_5$:</p><p class=m>$a_4=2^3=8,\quad a_5=2^4=16$</p><p class=m>$a_4+a_5=24$</p></div></article>
+<article><b>21.</b> (מנה שלילית) בסדרה בת 7 איברים $a_1=1,\ q=-2$. מצאו את הסכום הכולל, סכום האי־זוגיים וסכום הזוגיים.
+<div class="p f" hidden><p>סכום כולל: $43$; אי־זוגיים: $85$; זוגיים: $-42$.</p></div><div class="p s" hidden><p>הסכום הכולל:</p><p class=m>$S_7=\frac{1\cdot((-2)^7-1)}{-2-1}=\frac{-129}{-3}=43$</p><p>מקומות אי־זוגיים: $a_1,a_3,a_5,a_7$ – 4 איברים, מנה $q^2=4$:</p><p class=m>$\frac{4^4-1}{4-1}=85$</p><p>מקומות זוגיים: $a_2,a_4,a_6$ – 3 איברים, $a_2=-2$, מנה $4$:</p><p class=m>$\frac{-2(4^3-1)}{4-1}=-42$</p><p>בדיקה: $85+(-42)=43$ ✓.</p></div></article>
+<article><b>22.</b> שלושה מספרים ברצף הנדסי, סכומם 21 ומכפלתם 216. מצאו אותם.
+<div class="p f" hidden><p>$3,6,12$ (או באופן הפוך $12,6,3$).</p></div><div class="p s" hidden><p>נסמן את שלושת המספרים $\frac bq,\ b,\ bq$ ($b$ האמצעי).</p><p>מכפלה:</p><p class=m>$\frac bq\cdot b\cdot bq=b^3=216\ \Rightarrow\ b=6$</p><p>סכום:</p><p class=m>$\frac6q+6+6q=21$</p><p>נכפול ב־$q$ ונסדר:</p><p class=m>$6+6q+6q^2=21q$</p><p class=m>$6q^2-15q+6=0$</p><p>נחלק ב־3:</p><p class=m>$2q^2-5q+2=0$</p><p class=m>$q=\frac{5\pm3}{4}$</p><p>קיבלנו $q=2$ או $q=\frac12$.</p><p>עבור $q=2$ המספרים הם $3,6,12$. עבור $q=\frac12$ המספרים הם $12,6,3$ – אותם מספרים בסדר הפוך.</p></div></article>
+</section>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js"></script>
+<script>
+document.addEventListener('click',function(e){var b=e.target.closest('.ab button');if(!b)return;var p=b.closest('article').querySelector('.p.'+b.dataset.k);p.hidden=!p.hidden;b.classList.toggle('on',!p.hidden)});
+function show(id){document.querySelectorAll('section').forEach(function(e){e.hidden=e.id!=id});document.querySelectorAll('nav [data-t]').forEach(function(b){b.classList.toggle('on',b.dataset.t==id)});window.scrollTo(0,0)}
+show(['p','k','s'].indexOf(location.hash.slice(1))<0?'p':location.hash.slice(1));
+var mn=document.querySelector('main');mn.innerHTML=mn.innerHTML.replace(/\$(.+?)\$/g,'<i>$1</i>');document.querySelectorAll('article').forEach(function(a){var p=a.querySelector('.p');if(p){var d=document.createElement('div');d.className='ab';d.innerHTML='<button data-k="f">תשובה סופית</button><button data-k="s">פתרון מלא</button>';a.insertBefore(d,p)}});
+var GR=[
+[function(x){return (x-1)*(x-1)+1},[-2,4],[-1,6],[[1,1,'(1,1)'],[0,2,'(0,2)']]],
+[function(x){return -(x-1)*(x-1)+4},[-2.5,4.5],[-3,5],[[1,4,'(1,4)'],[-1,0,''],[3,0,'']]],
+[function(x){return (x+1)*(x+1)*(x-2)},[-2.5,3.2],[-5,5],[[-1,0,''],[2,0,''],[1,-4,'(1,−4)'],[0,-2,'(0,−2)']]],
+[function(x){return (x+2)/(x-1)},[-5,5],[-5,6],[[-2,0,''],[0,-2,'(0,−2)']],{va:[1],ha:[1]}],
+[function(x){return x*x-2*x-3},[-2.5,4.5],[-5,5],[[1,-4,'(1,−4)'],[-1,0,''],[3,0,'']],{ho:[[2,-3,'(2,−3)']]}],
+[function(x){return x/(x+1)},[-5,5],[-3,5],[[0,0,''],[-2,2,'(−2,2)']],{va:[-1],ha:[1],ho:[[2,2/3,'(2,⅔)']]}],
+[function(x){return x>1&&x<=5?(x-1)+4/(x-1):NaN},[-1,6],[-1,8],[[3,4,'(3,4)'],[5,5,'(5,5)']],{va:[1]}],
+[function(x){return 4*x/(x*x+1)},[-5,5],[-3,3],[[1,2,'(1,2)'],[-1,-2,'(−1,−2)'],[0,0,'']],{ha:[0]}],
+[function(x){return x*(x-3)*(x-3)},[-1,4.5],[-3,6],[[1,4,'(1,4)'],[0,0,''],[3,0,'']],{t:'y = f ′(x)'}],
+[function(x){return (x+1)*(x-2)},[-2.5,3.5],[-3,5],[[-1,0,''],[2,0,''],[0,-2,'(0,−2)']],{t:'y = f ″(x)'}]];
+GR.forEach(function(g,n){var f=g[0],xr=g[1],yr=g[2],o=g[4]||{},W=300,H=200,p=26,R=Math.round,sx=(W-2*p)/(xr[1]-xr[0]),sy=(H-2*p)/(yr[1]-yr[0]),X=function(x){return R(p+(x-xr[0])*sx)},Y=function(y){return R(H-p-(y-yr[0])*sy)},h='<path class=ax d="M18 '+Y(0)+'H282M'+X(0)+' 182V18"/><text x=282 y='+(Y(0)+14)+'>x</text><text x='+(X(0)+6)+' y=16>y</text>',k,d='',up=0,px=xr[0],va=o.va||[],i,x,y;
+for(k=Math.ceil(xr[0]);k<=xr[1];k++)if(k)h+='<path class=ax d="M'+X(k)+' '+(Y(0)-2)+'v4"/><text class=tk x='+X(k)+' y='+(Y(0)+14)+'>'+k+'</text>';
+for(k=Math.ceil(yr[0]);k<=yr[1];k++)if(k)h+='<path class=ax d="M'+(X(0)-2)+' '+Y(k)+'h4"/><text class="tk e" x='+(X(0)-5)+' y='+(Y(k)+3)+'>'+k+'</text>';
+va.forEach(function(a){h+='<path class=ds d="M'+X(a)+' 18V182"/><text class=tk x='+(X(a)+3)+' y=192>x='+a+'</text>'});
+(o.ha||[]).forEach(function(b){h+='<path class=ds d="M18 '+Y(b)+'H282"/><text class=tk x=252 y='+(Y(b)-4)+'>y='+b+'</text>'});
+for(i=0;i<=300;i++){x=xr[0]+(xr[1]-xr[0])*i/300;if(va.some(function(a){return px<a&&a<=x}))up=0;px=x;if(va.some(function(a){return Math.abs(x-a)<1e-9})){up=0;continue}y=f(x);if(y>=yr[0]&&y<=yr[1]){d+=(up?' ':'M')+X(x)+' '+Y(y);up=1}else up=0}
+h+='<path class=cv d="'+d+'"/>';
+g[3].forEach(function(m){h+='<circle cx='+X(m[0])+' cy='+Y(m[1])+' r=3 class=pt /><text class=tk x='+(X(m[0])+6)+' y='+(Y(m[1])-6)+'>'+m[2]+'</text>'});
+(o.ho||[]).forEach(function(m){h+='<circle cx='+X(m[0])+' cy='+Y(m[1])+' r=3.5 class=ho /><text class=tk x='+(X(m[0])+6)+' y='+(Y(m[1])-6)+'>'+m[2]+'</text>'});
+h+='<text class=tk x=210 y=14>'+(o.t||'y = f(x)')+'</text>';
+document.getElementById('g'+n).innerHTML=h});
+if(window.katex)document.querySelectorAll('i').forEach(function(e){try{katex.render(e.textContent,e,{output:'mathml',throwOnError:false})}catch(x){}});
+</script>
+</body></html>
